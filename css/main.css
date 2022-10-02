@@ -130,6 +130,19 @@ li {
   font-size: 19px;
 }
 
+@media screen and (max-width: 340px) {
+  body {
+    overflow: hidden;
+  }
+  .about {
+    max-width: 320px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about {
+    max-width: 360px;
+  }
+}
 .home {
   text-align: center;
   max-width: 500px;
@@ -214,4 +227,10 @@ li {
 
 .block {
   display: block;
+}
+
+@media only screen and (max-width) {
+  .home {
+    max-width: 390px;
+  }
 }/*# sourceMappingURL=main.css.map */

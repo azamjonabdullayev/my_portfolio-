@@ -88,3 +88,8 @@
 .block{
     display: block;
 }
+@media only screen and (max-width){
+    .home{
+        max-width: 390px;
+    }
+}

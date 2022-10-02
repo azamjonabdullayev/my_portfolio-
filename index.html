@@ -80,7 +80,7 @@
                         <i class="icon fa-sharp fa-solid fa-location-dot">  </i>
                         
                         <h4 class="about__tittle ">
-                            shaxrixon.t Paxtaobod M.F.Y
+                            Shahrixon.t Ortish M.F.Y
                         </h4>
                     </a>
                 </li>
@@ -100,44 +100,7 @@
                     </a>
                 </li>
             </ul>  
-            <input type="text" id="country" name="country" placeholder="sendMessage">
-            <input type="button" id="add_button" value="Enter">
-            <div id="response"></div>
-            
-            <script>
-                const token = '<token>';
-                const chatId = '<chat_id>';
-            
-                $(document).ready(function () {
-                    $("#add_button").on('click', function (event) {
-                        execute();
-                    });
-            
-                    function execute() {
-                        const fname = document.querySelector('#fname').value;
-                        const country = document.querySelector('#country').value;
-                        const message = `Fullname: ${fname}\nCountry: ${country}`;
-            
-                        $.ajax({
-                            type: 'POST',
-                            url: `https://api.telegram.org/bot${token}/sendMessage`,
-                            data: {
-                                chat_id: chatId,
-                                text: message,
-                                parse_mode: 'html',
-                            },
-                            success: function (res) {
-                                console.debug(res);
-                                $('#response').text('Message sent');
-                            },
-                            error: function (error) {
-                                console.error(error);
-                                alert("error failed");
-                            }
-                        });
-                    }
-                });
-            </script>
+
         <!-- <section class="help">
             <h2 class="help__tittle">
                 Biz bilan bog'laning. Biz sizga yordam berishga harakat qilamiz

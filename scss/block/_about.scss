@@ -82,3 +82,16 @@
     border-radius: 30px;
     font-size: 19px;
 }
+@media screen and (max-width:340px){
+    body{
+        overflow: hidden;
+    }
+    .about{
+        max-width: 320px;
+    }
+}
+@media screen and (max-width:400px){
+    .about{
+        max-width: 360px;
+    }
+}
