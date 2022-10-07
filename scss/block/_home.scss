@@ -78,9 +78,10 @@
     }
     &__link{
         font-size: 27px;
+        color:lightgray;
         :hover{
             font-size: 33px;
-            color: lightgray    ;
+            color: blue    ;
             transition: 0.2s;
         }
     }
