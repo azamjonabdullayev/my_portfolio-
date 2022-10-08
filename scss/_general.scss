@@ -1,20 +1,16 @@
-html {
-    max-width: 100%;
+
+html{
+    width: 100vw;
     height: 100vh;
 }
-
 body{
-    max-width: 100vw;
-    max-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
     padding: 0;
-    display: flex;
-    align-items:center;
     overflow: hidden;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     *{
-        height: 100vh;
-     } 
     a{
         text-decoration: none;
     }
@@ -41,7 +37,29 @@ body{
         background-color: lightblue;
         border: 1px solid lightgray;
         opacity: 0.6;
+        cursor: pointer;
     }
-
+    #abd:hover{
+        color: #6394c2;
+        transition: 0.5s;
+        border: 1px solid black;
+    }
+    .main{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #vant{
+        width: 100vw;
+        height: 100vh;
+    }
+    
 
 }
+#vant {
+    width: 100vw;
+    height: none;
+}
+
