@@ -1,17 +1,17 @@
 .home{
     text-align: center;
-    max-width: 500px;
-    height: 600px;
+    max-width: 450px;
+    height: 540px;
     margin: 0 auto;
     // border: 1px solid lightgray;
     background-color: rgba(255, 255, 255, .1);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(9px);
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
-    position: relative;
+    border-radius: 20px;
+    position: relative; 
     &__image{
-        width: 250px ;
-        height: 250px;
+        width: 200px ;
+        height: 200px;
         border: 1px solid lightgray;
         border-radius: 50%;
         box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
@@ -19,25 +19,25 @@
     }
     &__logo{
         padding-top: 10px;
-            width: 270px;
-            height: 270px;
-            margin: 0 auto;
-            color: #fff;
+        width: 205px;
+        height: 205px;
+        margin: 0 auto;
+        color: #fff;
     }
     &__image:hover{
-        width: 255px;
-        height: 255px;
-        transition: 0.2s;
+        width: 205px;
+        height: 205px;
+        transition: 0.5s;
     }
     &__tittle{
-        font-size: 35px;
+        font-size: 30px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-weight: 400;   
         color: #fff;
         
     }
     &__paragraph{
-        font-size: 18px;
+        font-size: 17px;
         color: #fff;
         
     }
@@ -63,7 +63,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 30px;
+        border-radius: 15px;
         box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
         background-color: lightblue;
     }
@@ -78,7 +78,7 @@
     }
     &__link{
         font-size: 27px;
-        color:lightgray;
+        color:#519ec4;
         :hover{
             font-size: 33px;
             color: blue    ;
@@ -89,8 +89,39 @@
 .block{
     display: block;
 }
-@media only screen and (max-width){
+@media  screen and (max-width:768px){
     .home{
-        max-width: 390px;
+        width: 350px;
+        height: 500px;
+        &__image{
+            width: 170px;
+            height: 170px;
+            
+        }
+        &__image:hover{
+            width: 173px;
+            height: 173px;
+        }
+        &__logo{
+            width: 175px;
+            height: 175px;
+            margin: 0 auto;
+        }
+        &__tittle{
+            font-size: 27px;
+            font-weight: 400;
+        }
+        &__paragraph{
+            font-size: 16px;
+        }
+        &__list{
+            width: 130px;
+            margin: 0 auto;
+            // margin-left: ;
+            
+        }
+        &__item{
+            padding-left: 15px;
+        }
     }
 }

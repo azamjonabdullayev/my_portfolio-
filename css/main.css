@@ -22,19 +22,24 @@ li {
 }
 
 .btn {
-  width: 50px;
-  height: 50px;
-  margin: auto;
-  margin-bottom: 2px;
-  border-radius: 50px;
   cursor: pointer;
   display: flex;
   color: black;
   opacity: 0.6;
   align-items: center;
   justify-content: center;
-  background-color: orange;
   transition: 0.5s;
+}
+
+#abd {
+  padding: 13px 130px;
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border-radius: 15px;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
+  background-color: lightblue;
+  border: 1px solid lightgray;
+  opacity: 0.6;
 }
 
 .header {
@@ -51,8 +56,9 @@ li {
 
 .about {
   text-align: center;
-  max-width: 500px;
-  height: 600px;
+  max-width: 450px;
+  height: 560px;
+  transition: 0.5s;
   margin: 0 auto;
   border: 1px solid lightgray;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
@@ -61,20 +67,20 @@ li {
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px);
   background-color: rgba(255, 255, 255, 0.1);
-  top: 8%;
+  top: 0%;
   right: 0;
   left: 0;
   bottom: 0;
   display: none;
 }
 .about__top {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   margin: 0 auto;
 }
 .about__image {
-  width: 150px;
-  height: 150px;
+  width: 135px;
+  height: 135px;
   border: 1px solid lightgray;
   border-radius: 50%;
   margin-top: 15px;
@@ -86,27 +92,38 @@ li {
 }
 .about__image:hover {
   transition: 0.6s;
-  width: 155px;
-  height: 155px;
+  width: 135px;
+  height: 135px;
 }
 .about__text {
-  padding-top: 20px;
-  max-width: 460px;
+  padding-top: 18px;
+  max-width: 410px;
   margin: 0 auto;
   line-height: 28px;
 }
 .about__tittle {
-  font-size: 19px;
+  font-size: 16px;
   color: black;
   opacity: 0.8;
+}
+.about__tittle:hover {
+  color: blue;
+}
+.about__list {
+  padding-left: 45px;
+  margin-top: -15px;
 }
 
 .icon {
   display: inline-block;
   margin-right: 15px;
   font-size: 20px;
-  color: black;
-  opacity: 0.8;
+  color: #622bcf;
+  opacity: #622bcf 0.8;
+}
+
+.icon:hover {
+  color: blue;
 }
 
 .block {
@@ -130,58 +147,75 @@ li {
   font-size: 19px;
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 768px) {
   body {
     overflow: hidden;
   }
   .about {
-    max-width: 320px;
+    max-width: 345px;
+    height: 500px;
   }
-}
-@media screen and (max-width: 400px) {
-  .about {
-    max-width: 360px;
+  .about__image {
+    width: 100px;
+    height: 100px;
+  }
+  .about__top {
+    width: 105px;
+    height: 105px;
+  }
+  .about__image:hover {
+    width: 105px;
+    height: 105px;
+  }
+  .about__text {
+    font-size: 14px;
+  }
+  .about__tittle {
+    font-size: 16px;
+  }
+  #abd {
+    padding: 8px 60px;
   }
 }
 .home {
   text-align: center;
-  max-width: 500px;
-  height: 600px;
+  max-width: 450px;
+  height: 540px;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.1);
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
+  border-radius: 20px;
   position: relative;
 }
 .home__image {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border: 1px solid lightgray;
   border-radius: 50%;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
 }
 .home__logo {
   padding-top: 10px;
-  width: 270px;
-  height: 270px;
+  width: 205px;
+  height: 205px;
   margin: 0 auto;
   color: #fff;
 }
 .home__image:hover {
-  width: 255px;
-  height: 255px;
-  transition: 0.2s;
+  width: 205px;
+  height: 205px;
+  transition: 0.5s;
 }
 .home__tittle {
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: 400;
   color: #fff;
 }
 .home__paragraph {
-  font-size: 18px;
+  font-size: 17px;
   color: #fff;
 }
 .home__list {
@@ -204,7 +238,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 30px;
+  border-radius: 15px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
   background-color: lightblue;
 }
@@ -218,10 +252,11 @@ li {
 }
 .home__link {
   font-size: 27px;
+  color: #519ec4;
 }
 .home__link :hover {
   font-size: 33px;
-  color: lightgray;
+  color: blue;
   transition: 0.2s;
 }
 
@@ -229,8 +264,36 @@ li {
   display: block;
 }
 
-@media only screen and (max-width) {
+@media screen and (max-width: 768px) {
   .home {
-    max-width: 390px;
+    width: 350px;
+    height: 500px;
+  }
+  .home__image {
+    width: 170px;
+    height: 170px;
+  }
+  .home__image:hover {
+    width: 173px;
+    height: 173px;
+  }
+  .home__logo {
+    width: 175px;
+    height: 175px;
+    margin: 0 auto;
+  }
+  .home__tittle {
+    font-size: 27px;
+    font-weight: 400;
+  }
+  .home__paragraph {
+    font-size: 16px;
+  }
+  .home__list {
+    width: 130px;
+    margin: 0 auto;
+  }
+  .home__item {
+    padding-left: 15px;
   }
 }/*# sourceMappingURL=main.css.map */
