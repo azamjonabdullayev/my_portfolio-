@@ -17,7 +17,7 @@
         
     }
     &__logo{
-        padding-top: 10px;
+        padding-top: 40px;
         width: 205px;
         height: 205px;
         margin: 0 auto;
@@ -29,15 +29,16 @@
         transition: 0.5s;
     }
     &__tittle{
-        font-size: 30px;
+        font-size: 27px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-weight: 400;   
         color: #fff;
         
     }
     &__paragraph{
+        margin-top: -10px;
         font-size: 17px;
-        color: #fff;
+        color: #dee2e3;
         
     }
     &__list{
