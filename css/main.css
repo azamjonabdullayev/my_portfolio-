@@ -326,4 +326,29 @@ body #vant {
   .home__item {
     padding-left: 15px;
   }
+}
+.help {
+  max-width: 400px;
+  height: 535px;
+  transition: 0.5s;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  position: absolute;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 12%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.help__text {
+  font-size: 12px;
+  font-weight: 400;
+}
+.help form {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */

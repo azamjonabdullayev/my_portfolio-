@@ -5,9 +5,11 @@ function $(selector) {
 
 let btn = document.querySelector('.btn');
 let abt = document.querySelector('.about');
+let home = document.qu
 
 
 btn.onclick = function() {
+    
     btn.classList.toggle('btn--active');
     // btn.className = 'btn active'
     // abt.style.display = 'block'
