@@ -29,20 +29,21 @@ body{
         transition: 0.5s;
     }
     #abd{
-        padding: 13px 130px;
+        padding: 13px 33px;
         font-size: 22px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        border-radius: 15px;
+        border-radius: 18px;
         box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
         background-color: lightblue;
         border: 1px solid lightgray;
         opacity: 0.6;
+        box-shadow: 4px 4px 4px rgba(4, 77, 125, 0.422);
         cursor: pointer;
     }
     #abd:hover{
         color: #6394c2;
         transition: 0.5s;
-        border: 1px solid black;
+        border: 1px solid rgb(121, 206, 235);
     }
     .main{
         width: 100vw;
