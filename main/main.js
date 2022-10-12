@@ -7,19 +7,28 @@ let btn = document.querySelector('.btn');
 let abt = document.querySelector('.about');
 
 
-btn.onclick = function() {
-    
-    btn.classList.toggle('btn--active');
-    // btn.className = 'btn active'
-    // abt.style.display = 'block'
-    abt.classList.toggle('block')
-    abt.classList.toggle('about--active');
-};
-abd.onclick = function () {
-    abd.classList.toggle("btn--active");
-    abt.classList.toggle("block");
-    abt.classList.toggle("about--active");
-  };
+let hm = document.querySelector('#home__btn')
+  hm.addEventListener('click',()=>{
+    home.style.display='none'
+    about.style.display='block'
+  })
+  let exit = document.querySelector('#abd')
+  exit.addEventListener('click',()=>{
+    about.style.display='none'
+    home.style.display='block'
+  })
+  let sv=document.querySelector('#savol')
+  sv.addEventListener('click',()=>{
+    about.style.display='none'
+    help.style.display='block'
+  })
+  let av=document.querySelector('#savol__block')
+  av.addEventListener('click',()=>{
+    help.style.display='none'
+    about.style.display='block'
+
+
+  })
 function sendEmail() {
     Email.send({
         SecureToken: "8de80e65-5c14-447e-9ee5-7d1272c73798",
@@ -50,7 +59,7 @@ VANTA.NET({
     scaleMobile: 1.00,
     color: 0x161515,
     backgroundColor: 0xb5b5c3,
-    points: 14.00,
+    points: 16.00,
     spacing: 13.00
   })
  

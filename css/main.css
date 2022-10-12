@@ -70,14 +70,9 @@ body #vant {
   border: 1px solid lightgray;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
-  position: absolute;
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px);
   background-color: rgba(255, 255, 255, 0.1);
-  top: 12%;
-  right: 0;
-  left: 0;
-  bottom: 0;
   display: none;
 }
 .about__top {
@@ -170,10 +165,6 @@ body #vant {
   .about {
     max-width: 345px;
     height: 510px;
-    top: 20%;
-    right: 0;
-    left: 0;
-    bottom: 0;
   }
   .about__image {
     width: 100px;
@@ -359,14 +350,9 @@ body #vant {
   border: 1px solid lightgray;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
-  position: absolute;
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px);
   background-color: rgba(255, 255, 255, 0.1);
-  top: 12%;
-  right: 0;
-  left: 0;
-  bottom: 0;
   display: none;
 }
 .help__top {
@@ -421,7 +407,7 @@ body #vant {
   transition: 0.5s;
 }
 .help__btnbox {
-  width: 400px;
+  width: 340px;
   display: flex;
   justify-content: space-around;
 }
@@ -433,6 +419,7 @@ body #vant {
   border: 1px solid #d1e2e3;
   background-color: lightblue;
   opacity: 0.7;
+  cursor: pointer;
 }
 .help .block__btn:hover {
   opacity: 1;
