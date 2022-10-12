@@ -61,6 +61,7 @@
     &__button:hover{
         opacity: 1;
         border:1px solid lightblue;
+        border: 1px solid rgb(121, 206, 235);
         transition: 0.5s;
     }
     &__btnbox{
@@ -79,6 +80,7 @@
         cursor: pointer;
     }
     .block__btn:hover{
+        color: #6394c2;
         opacity: 1;
         border:1px solid lightblue;
         transition: 0.5s;
