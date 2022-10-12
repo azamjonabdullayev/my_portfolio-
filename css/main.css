@@ -41,7 +41,6 @@ body #abd {
 body #abd:hover {
   color: #6394c2;
   transition: 0.5s;
-  border: 1px solid rgb(121, 206, 235);
 }
 body .main {
   width: 100vw;
@@ -416,9 +415,9 @@ body #vant {
 }
 .help__button:hover {
   opacity: 1;
-  border: 1px solid lightblue;
-  border: 1px solid rgb(121, 206, 235);
   transition: 0.5s;
+  color: #6394c2;
+  opacity: 1;
 }
 .help__btnbox {
   width: 340px;
@@ -437,7 +436,6 @@ body #vant {
 .help .block__btn:hover {
   color: #6394c2;
   opacity: 1;
-  border: 1px solid lightblue;
   transition: 0.5s;
 }
 .help form {
