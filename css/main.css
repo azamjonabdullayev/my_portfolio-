@@ -454,12 +454,6 @@ body #vant {
 @media only screen and (max-width: 400px) {
   .help {
     max-width: 360px;
-    position: absolute;
-    height: 527px;
-    top: 20%;
-    right: 0;
-    left: 0;
-    bottom: 0;
   }
   .help form {
     max-width: 250px;

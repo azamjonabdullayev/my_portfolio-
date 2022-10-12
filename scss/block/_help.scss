@@ -66,7 +66,6 @@
     &__btnbox{
         width: 340px;
         display: flex;
-        
         justify-content: space-around;
     }
     .block__btn{
@@ -115,12 +114,6 @@
 @media only screen and(max-width:400px){
     .help{
         max-width: 360px;
-        position: absolute;
-        height: 527px;
-        top: 20%;
-        right: 0;
-        left: 0;
-        bottom: 0;
         form{
             max-width: 250px;
         }
