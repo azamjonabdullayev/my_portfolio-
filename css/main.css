@@ -163,8 +163,7 @@ body #vant {
     overflow: hidden;
   }
   .about {
-    max-width: 345px;
-    height: 510px;
+    max-width: 90%;
   }
   .about__image {
     width: 100px;
@@ -198,7 +197,7 @@ body #vant {
     font-size: 12px;
   }
   .about__page {
-    max-width: 300px;
+    max-width: 260px;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -208,13 +207,13 @@ body #vant {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 140px;
+    width: 120px;
     height: 50px;
+    border-radius: 12px;
   }
   .about .block__btn {
-    padding: 0;
-    width: 140px;
-    height: 50px;
+    border-radius: 12px;
+    width: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -311,20 +310,20 @@ body #vant {
 
 @media screen and (max-width: 768px) {
   .home {
-    width: 350px;
+    width: 90%;
     height: 500px;
   }
   .home__image {
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
   }
   .home__image:hover {
-    width: 173px;
-    height: 173px;
+    width: 155px;
+    height: 155px;
   }
   .home__logo {
-    width: 175px;
-    height: 175px;
+    width: 155px;
+    height: 155px;
     margin: 0 auto;
   }
   .home__tittle {
@@ -333,6 +332,9 @@ body #vant {
   }
   .home__paragraph {
     font-size: 16px;
+  }
+  .home__telephone {
+    max-width: 230px;
   }
   .home__list {
     width: 130px;
@@ -455,7 +457,7 @@ body #vant {
 
 @media only screen and (max-width: 400px) {
   .help {
-    max-width: 360px;
+    max-width: 90%;
   }
   .help form {
     max-width: 250px;
@@ -464,13 +466,17 @@ body #vant {
     max-width: 230px;
   }
   .help__btnbox {
-    width: 200px;
+    width: 230px;
   }
   .help__button {
     padding: 15px 15px;
+    border-radius: 14px;
   }
   .help .block__btn {
-    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
     margin-right: 10px;
+    border-radius: 14px;
   }
 }/*# sourceMappingURL=main.css.map */
