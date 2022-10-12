@@ -33,7 +33,7 @@ function sendEmail() {
     Email.send({
         SecureToken: "8de80e65-5c14-447e-9ee5-7d1272c73798",
         To: ('azamjondasturchi11@gmail.com'),
-        From: document.getElementById("email").value,
+        From: ('azamjondasturchi11@gmail.com'),
         Subject: "Sayt orqali yuborilgan xat",
         Body:
         "Name: " +
