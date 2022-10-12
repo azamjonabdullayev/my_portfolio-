@@ -60,17 +60,17 @@
     &__telephone{
         width: 300px ;
         height: 50px;
-        border: 1px solid rgb(121, 206, 235);
+        border: 1px solid rgb(129, 142, 146);
         margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 15px;
         box-shadow: 4px 4px 4px rgba(4, 77, 125, 0.422);
-        background-color: lightblue;
+        // background-color: lightblue;
     }
     &__input{
-        color: black;
+        color: aliceblue;
         font-size: 22px;
         
     }
@@ -86,6 +86,19 @@
             color: blue    ;
             transition: 0.2s;
         }
+
+    }
+    .fa-github{
+        color:black;
+    }
+    .fa-instagram{
+        color: #e371ca;
+    }
+    .fa-telegram{
+        color:blue;
+    }
+    .fa-youtube{
+        color:red;
     }
 }
 .block{

@@ -22,7 +22,7 @@ body{
     .btn {
         cursor: pointer;
         display: flex;
-        color: black;
+        // color: black;
         opacity: 0.6;
         align-items: center;
         justify-content: center;
@@ -34,7 +34,7 @@ body{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         border-radius: 18px;
         box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
-        background-color: lightblue;
+        background-color: rgba(255, 255, 255, 0.1);
         border: 1px solid lightgray;
         opacity: 0.6;
         box-shadow: 4px 4px 4px rgba(4, 77, 125, 0.422);

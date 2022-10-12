@@ -21,7 +21,6 @@ body li {
 body .btn {
   cursor: pointer;
   display: flex;
-  color: black;
   opacity: 0.6;
   align-items: center;
   justify-content: center;
@@ -33,7 +32,7 @@ body #abd {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   border-radius: 18px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
-  background-color: lightblue;
+  background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid lightgray;
   opacity: 0.6;
   box-shadow: 4px 4px 4px rgba(4, 77, 125, 0.422);
@@ -130,7 +129,7 @@ body #vant {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   border-radius: 18px;
   box-shadow: 0px 20px 30px;
-  background-color: lightblue;
+  background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid lightgray;
   box-shadow: 4px 4px 4px rgba(4, 77, 125, 0.422);
   opacity: 0.6;
@@ -139,7 +138,6 @@ body #vant {
 .about .block__btn:hover {
   color: #6394c2;
   transition: 0.5s;
-  border: 1px solid rgb(121, 206, 235);
 }
 
 .icon {
@@ -210,6 +208,7 @@ body #vant {
     width: 120px;
     height: 50px;
     border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
   }
   .about .block__btn {
     border-radius: 12px;
@@ -277,17 +276,16 @@ body #vant {
 .home__telephone {
   width: 300px;
   height: 50px;
-  border: 1px solid rgb(121, 206, 235);
+  border: 1px solid rgb(129, 142, 146);
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
   box-shadow: 4px 4px 4px rgba(4, 77, 125, 0.422);
-  background-color: lightblue;
 }
 .home__input {
-  color: black;
+  color: aliceblue;
   font-size: 22px;
 }
 .home__input:hover {
@@ -302,6 +300,18 @@ body #vant {
   font-size: 33px;
   color: blue;
   transition: 0.2s;
+}
+.home .fa-github {
+  color: black;
+}
+.home .fa-instagram {
+  color: #e371ca;
+}
+.home .fa-telegram {
+  color: blue;
+}
+.home .fa-youtube {
+  color: red;
 }
 
 .block {
@@ -402,6 +412,7 @@ body #vant {
   font-size: 19px;
   border: 1px solid #d1e2e3;
   opacity: 0.7;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .help__button:hover {
   opacity: 1;
@@ -420,7 +431,6 @@ body #vant {
   margin-top: 15px;
   font-size: 19px;
   border: 1px solid #d1e2e3;
-  background-color: lightblue;
   opacity: 0.7;
   cursor: pointer;
 }
